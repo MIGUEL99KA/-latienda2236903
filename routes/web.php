@@ -24,8 +24,8 @@ Route::get('paises' , function(){
             "mon" => "Peso",
             "pob" => "51.6",
             "ciudades" => [
-                "Medallin",
-                "Cali" , 
+                "Medellin",
+                "Cali", 
                 "Barranquilla"
             ]
             ],
@@ -36,8 +36,39 @@ Route::get('paises' , function(){
              "ciudades"=> [
             "Cuenca",
             "Guayaquil"
-             ]]
-
+             ]
+             ],
+             "Venezuela" => [
+                "cap" => "Caracas",
+                "mon" => "Bolivar",
+                "pob" => "28.44",
+             "ciudades"=> [
+            "Maracaibo",
+            "Zulia",
+            "Barquisimeto",
+            "Merida"
+             ]
+             ],
+             "Paraguay" => [
+                "cap" => "Asunción",
+                "mon" => "Guaraní",
+                "pob" => "7.1",
+             "ciudades"=> [
+            "Ciudad del este"
+             ]
+             ],
+             "Jamaica" => [
+                "cap" => "Kingston",
+                "mon" => "Dólar Jaimaiquino",
+                "pob" => "2.9",
+             "ciudades"=> [
+            "Bahía Montego",
+            "Port Antonio",
+            "Falmouth",
+            "Nagril",
+            "Mandeville"
+             ]
+             ]
         
              ];
 
