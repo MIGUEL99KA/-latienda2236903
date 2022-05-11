@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -81,3 +82,9 @@ Route::get('paises' , function(){
 Route::get('prueba', function(){
     return view('productos.create');
 });
+
+/**
+ * Rutas REST Producto
+ * 
+ */
+Route::resource('productos',ProductoController::class);
