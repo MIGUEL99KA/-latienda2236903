@@ -96,6 +96,8 @@
     </div>
       <div class="row">
         <div class="col s12">
+           <div class="row">
+        <div class="col s12">
           <div class="row">
         <button class="btn waves-effect waves-light" 
       type="submit"
