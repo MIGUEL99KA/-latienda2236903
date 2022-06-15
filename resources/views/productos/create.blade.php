@@ -103,7 +103,8 @@
       type="submit"
       name="action">
       Guardar
-          </div>
+       </button>
+      </div>
     </form>
   </div>
   @endsection
